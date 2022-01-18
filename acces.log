@@ -353,3 +353,8 @@
 ::ffff:127.0.0.1 - - [18/Jan/2022:17:16:44 +0000] "GET /css/cart.css HTTP/1.1" 304 - "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0 Waterfox/91.5.0"
 ::ffff:127.0.0.1 - - [18/Jan/2022:17:16:44 +0000] "GET /js/main.js HTTP/1.1" 304 - "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0 Waterfox/91.5.0"
 ::ffff:127.0.0.1 - - [18/Jan/2022:17:16:53 +0000] "GET /checkout HTTP/1.1" - - "http://localhost:3000/cart" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0 Waterfox/91.5.0"
+::ffff:127.0.0.1 - - [18/Jan/2022:17:19:52 +0000] "GET /checkout HTTP/1.1" 200 - "http://localhost:3000/cart" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0 Waterfox/91.5.0"
+::ffff:127.0.0.1 - - [18/Jan/2022:17:19:52 +0000] "GET /css/cart.css HTTP/1.1" 200 387 "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0 Waterfox/91.5.0"
+::ffff:127.0.0.1 - - [18/Jan/2022:17:19:52 +0000] "GET /css/style.css HTTP/1.1" 200 - "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0 Waterfox/91.5.0"
+::ffff:127.0.0.1 - - [18/Jan/2022:17:19:52 +0000] "GET /js/main.js HTTP/1.1" 200 519 "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0 Waterfox/91.5.0"
+::ffff:127.0.0.1 - - [18/Jan/2022:17:19:53 +0000] "GET /checkout HTTP/1.1" 200 - "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:91.0) Gecko/20100101 Firefox/91.0 Waterfox/91.5.0"
