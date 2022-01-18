@@ -19,7 +19,7 @@ const dbConfig = {
   user: process.env.DB_USER,
   pass: process.env.DB_PASS,
 };
-const { protocol, url, port, user, pass, dbname } = dbConfig;
+const { protocol, url, user, pass, dbname } = dbConfig;
 const MONGODB_URI = `${protocol}://${user}:${pass}@${url}/${dbname}`;
 app.use(
   helmet.contentSecurityPolicy({
