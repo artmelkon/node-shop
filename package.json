@@ -1,0 +1,46 @@
+{
+  "name": "node-chokidar-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon App.js",
+    "start": "node App.js"
+  },
+  "author": "Arthur",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "chokidar": "^3.3.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "csurf": "^1.11.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^14.1.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.9.0",
+    "fs-extra": "^10.0.0",
+    "helmet": "^5.0.1",
+    "joe": "^2.0.2",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.4.0",
+    "mongoose": "^5.8.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.11.0",
+    "pug": "^2.0.4",
+    "stripe": "^8.131.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
