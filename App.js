@@ -21,7 +21,16 @@ const dbConfig = {
 };
 const { protocol, url, port, user, pass, dbname } = dbConfig;
 const MONGODB_URI = `${protocol}://${user}:${pass}@${url}/${dbname}`;
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        "default-src": ["'self'"],
+        "script-src": ["'self'", "'unsafe-inline'"],
+      },
+    },
+  })
+);
 app.use(compression());
 app.use(morgan("combined", { stream: accessLogStram }));
 
