@@ -22,12 +22,13 @@ const dbConfig = {
 const { protocol, url, port, user, pass, dbname } = dbConfig;
 const MONGODB_URI = `${protocol}://${user}:${pass}@${url}/${dbname}`;
 app.use(
-  helmet({
-    contentSecurityPolicy: {
-      directives: {
-        "default-src": ["'self'"],
-        "script-src": ["'self'", "'unsafe-inline'"],
-      },
+  helmet.contentSecurityPolicy({
+    directives: {
+      "default-src": ["'self'"],
+      "script-src": ["'self'", "'unsafe-inline'", "js.stripe.com"],
+      "style-src": ["'self'", "'unsafe-inline'", "fonts.googleapis.com"],
+      "frame-src": ["'self'", "js.stripe.com"],
+      "font-src": ["'self'", "fonts.googleapis.com", "fonts.gstatic.com"],
     },
   })
 );
