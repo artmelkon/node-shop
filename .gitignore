@@ -3,3 +3,6 @@ node_modules/
 
 # files to ignore
 .DS-Store
+server.cert
+server.key
+access.log
