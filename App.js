@@ -20,7 +20,7 @@ const dbConfig = {
   pass: process.env.DB_PASS,
 };
 const { protocol, url, port, user, pass, dbname } = dbConfig;
-const MONGODB_URI = `${protocol}://${user}:${pass}@${url}Z/${dbname}`;
+const MONGODB_URI = `${protocol}://${user}:${pass}@${url}/${dbname}`;
 app.use(helmet());
 app.use(compression());
 app.use(morgan("combined", { stream: accessLogStram }));
