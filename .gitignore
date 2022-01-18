@@ -1,8 +1,10 @@
 # folder to ignore
 node_modules/
+env/
 
 # files to ignore
 .DS-Store
 server.cert
 server.key
 access.log
+.env
