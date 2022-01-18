@@ -1,4 +1,5 @@
-node_modules
-archived-docs
-data
-images
+# folder to ignore
+node_modules/
+
+# files to ignore
+.DS-Store

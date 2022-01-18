@@ -5,8 +5,8 @@ const winston = require('winston');
 const mongoose = require('mongoose');
 
 /* SSL/TLS connection */
-const privateKey = fse.readFileSync("server.key");
-const certificate = fse.readFileSync("server.cert");
+// const privateKey = fse.readFileSync("server.key");
+// const certificate = fse.readFileSync("server.cert");
 
 const PORT = process.env.PORT || 3000;
 
